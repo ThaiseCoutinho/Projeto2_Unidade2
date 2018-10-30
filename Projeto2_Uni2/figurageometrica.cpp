@@ -1,6 +1,9 @@
 #include "figurageometrica.h"
+#include <iostream>
 
-figurageometrica::figurageometrica()
+using namespace std;
+
+FiguraGeometrica::FiguraGeometrica()
 {
 
 }

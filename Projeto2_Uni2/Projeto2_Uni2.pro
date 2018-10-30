@@ -12,9 +12,18 @@ TARGET = Projeto2_Uni2
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += main.cpp \
+    screen.cpp \
+    retangulo.cpp \
+    reta.cpp \
+    circulo.cpp \
+    figurageometrica.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += \
+    screen.h \
+    retangulo.h \
+    reta.h \
+    circulo.h \
+    figurageometrica.h
 
 FORMS    += mainwindow.ui
